@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+Admin Dashboard Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React
+  Micro Frontend  
+  Function vs Class Components
+  Hooks (useState, useEffect, useRef, useContext, vs.)
 
-Currently, two official plugins are available:
+Redux
+Axios / Fetch
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Authentication & Authorization
+  JWT token handling
+  OAuth
+  Role & Permission-based UI rendering
+  Auth providers
+  
+Ant Design
+Tailwind CSS
 
-## Expanding the ESLint configuration
+Styling Approaches
+  CSS Modules
+  Styled Components
+  Emotion
+  Tailwind CSS (utility-first)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Routing & Navigation
+  React Router v6+
+  Nested Routes
+  Lazy Loading (Code Splitting)
+  Route Guards
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Testing Libraries
+  Storybook (UI component documentation & test)  
+  Jest
+  React Testing Library
+  Cypress (E2E)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+CI/CD ve Deployment
+  GitHub Actions
+  Azure Static Web Apps
+  Lint & Format (ESLint, Prettier)
+  SonarCloud (Frontend analiz)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Tooling ve Geliştirme Verimliliği
+  Vite
+  ESLint & Prettier
+  Husky + Lint-Staged (pre-commit kalite kontrolü)
+  Typescript (mutlaka!)
+  Environment (.env, Vite env vs.)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Service Workers
+  WebSocket (Socket.io, native WebSocket API)
+  Internationalization (i18n)
+
+Monitoring ve Analiz
+  Google Analytics / GA4
+  Sentry (error tracking)
+  LogRocket / FullStory (session replay)
+
+DND
