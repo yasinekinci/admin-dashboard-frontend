@@ -4,6 +4,7 @@ React
   Micro Frontend  
   Function vs Class Components
   Hooks (useState, useEffect, useRef, useContext, vs.)
+  formik
 
 Redux
 Axios / Fetch
