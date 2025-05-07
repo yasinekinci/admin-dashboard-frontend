@@ -6,7 +6,7 @@ React
   Hooks (useState, useEffect, useRef, useContext, vs.)
   formik
 
-Redux
+Redux 
 Axios / Fetch
 
 Authentication & Authorization
